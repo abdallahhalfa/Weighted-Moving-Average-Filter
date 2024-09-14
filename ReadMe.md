@@ -11,6 +11,7 @@ focused on implementing a Weighted Moving Average (WMA) filter. The specified fi
 Weighted Moving Average Filter: A type of Finite Impulse Response (FIR) filter that calculates a weighted average of a fixed number of input samples. The weights are predefined and applied to the current and past input values to compute the output.**The filter operates at a sampling frequency of 100 MHz**.
 
 ![alt text](images/diagram.JPG) 
+
 ***Figure 1: Filter Diagram***
 
 The diagram provided shows a basic filter structure, representing how the weighted input values are summed after being delayed by unit delays (represented by z<sup>-1</sup> ). 
